@@ -18,6 +18,7 @@
 ---
 
 ## Checklist
+- [ ] What can we sudo? `sudo -l`
 - [ ] Is /etc/passwd or /etc/shadow writeable?
 - [ ] Any cronjobs running as root?
 - [ ] SUID: `find / -type f -perm -u=s 2>/dev/null`
